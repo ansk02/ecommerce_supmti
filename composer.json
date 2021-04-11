@@ -1,0 +1,12 @@
+{
+    "name": "abdul/ecommerce",
+    "authors": [
+        {
+            "name": "abdul",
+            "email": "abdulkabirkeita825@gmail.com"
+        }
+    ],
+    "require": {
+        "facebook/graph-sdk": "^5.1"
+    }
+}

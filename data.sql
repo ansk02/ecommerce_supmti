@@ -1,0 +1,18 @@
+CREATE DATABASE tuto2;
+
+
+
+
+
+CREATE TABLE users(
+
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	username VARCHAR(200) NOT NULL UNIQUE,
+	email VARCHAR(200) NOT NULL,
+	password VARCHAR(60) NOT NULL
+);
+
+
+ALTER TABLE users
+ADD confirmation_token VARCHAR(60) NULL,
+ADD confirmed_at DATETIME NULL;
